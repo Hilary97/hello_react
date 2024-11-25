@@ -1,15 +1,18 @@
 .App {
   text-align: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  border-radius: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
+
   }
 }
 
@@ -26,6 +29,11 @@
 
 .App-link {
   color: #61dafb;
+}
+.img-mi-amor
+{
+  width: 10rem;
+  border-radius: 100%;
 }
 
 @keyframes App-logo-spin {
